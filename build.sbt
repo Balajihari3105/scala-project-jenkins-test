@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-project-jenkin"
   )
+
+
+Compile / runMain := Some("HelloScala.scala")
