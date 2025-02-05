@@ -12,6 +12,13 @@ pipeline {
                 sh "/opt/homebrew/bin/sbt compile"
             }
         }
+
+        stage('Run') {
+            steps {
+                echo "Runnind..."
+                sh "/opt/homebrew/bin/sbt run"
+            }
+        }
 /*
         stage('Test') {
             steps {
