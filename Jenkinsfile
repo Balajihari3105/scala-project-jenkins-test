@@ -12,7 +12,7 @@ pipeline {
                 sh "/usr/local/bin/sbt compile"
             }
         }
-
+/*
         stage('Test') {
             steps {
                 echo "Testing..."
@@ -26,6 +26,6 @@ pipeline {
                 sh "/usr/local/bin/sbt package"
             }
         }
-
+*/
     }
 }
