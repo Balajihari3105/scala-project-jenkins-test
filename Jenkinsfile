@@ -9,7 +9,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo "Compiling..."
-                sh "/usr/local/bin/sbt compile"
+                sh "/opt/homebrew/bin/sbt compile"
             }
         }
 /*
