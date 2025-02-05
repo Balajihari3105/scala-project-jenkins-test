@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-jenkin.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-jenkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-jenkin.scala-project-jenkin-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-jenkin.scala-project-jenkin-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-jenkins-test.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-jenkins-test.iml" />
     </modules>
   </component>
 </project>
